@@ -47,7 +47,7 @@ parser.add_argument('-s','--start-server',        help='Starts a Simple Server f
 
 args = parser.parse_args()
 
-if (args.start_server = False and args.nikto == False and args.skipfish == False  and args.uniscan == False and args.wpscan == False and args.arjun == False and args.sqlmap == False and args.nmap == False and args.gobuster == False and args.feroxbuster == False and args.wfuzz == False ):
+if (args.start_server == False and args.nikto == False and args.skipfish == False  and args.uniscan == False and args.wpscan == False and args.arjun == False and args.sqlmap == False and args.nmap == False and args.gobuster == False and args.feroxbuster == False and args.wfuzz == False ):
 	print("[!] Missing required Inputs ")
 	print("[!] Usage : python3  recon-manager.py --nikto   ")
 	print("[!] Usage : python3  recon-manager.py --skipfish")
@@ -62,7 +62,7 @@ if (args.start_server = False and args.nikto == False and args.skipfish == False
 else:
 	protocol = "https://" if args.use_ssl else "http://"
 	proxy = "proxychains4 -q " if args.use_ssl else ""
-	if args.start_server == True
+	if args.start_server == True:
 		os.system("python3 -m http.server 9393")
 		exit(0)
 	if args.nikto == True:
