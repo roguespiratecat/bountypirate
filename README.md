@@ -116,6 +116,7 @@ optional arguments:
 ````
 
 ### vulners-manager.py
+
 ````commandline
 usage: python3 vulners-manager.py [-h] [-nk] [-sf] [-us] [-ws] [-ar] [-sm] [-nm] [-gb] [-fb] [-wf] [-pr] [-ssl] [-s]
 
@@ -138,4 +139,6 @@ optional arguments:
   -s, --start-server  Starts a Simple Server for Directory Browsing on port 9393
 ````
 
+### exploit-manager.py
 
+Not quiet there yet !!!!
