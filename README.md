@@ -1,6 +1,6 @@
 # bountypirate
 
-![./assets](img.png)
+![](./assets/img.png)
 
 **Note Python3 is required!**
 
