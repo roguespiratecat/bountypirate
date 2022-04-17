@@ -58,7 +58,7 @@ if (
     print("[!] Usage : python3  recon-manager.py --wfuzz")
 else:
     protocol = "https://" if args.use_ssl else "http://"
-    proxy = "proxychains4 -q " if args.proxy else ""
+    proxy = "proxychains4 -q " if args.use_proxy else ""
     if args.start_server is True:
         os.system("python3 -m http.server 9393")
         exit(0)
