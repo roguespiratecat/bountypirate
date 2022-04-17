@@ -88,8 +88,9 @@ Inside ``$HOME/bounty_pirate/myVulnerableDomain.com``  you will find 3 Directori
 
 Each directory has a bunch of scripts and one python file that will execute desired tools/scrips
 
+### recon-manage.py
 ````commandline
-usage: recon-manager.py [-h] [-s] [-c] [-l] [-a] [-m] [-g] [-ps] [-d] [-i] [-up] [-w WORD_LIST] [-r] [-ss]
+usage: python3 recon-manager.py [-h] [-s] [-c] [-l] [-a] [-m] [-g] [-ps] [-d] [-i] [-up] [-w WORD_LIST] [-r] [-ss]
 
 Simple Pentesting and Enumeration Framework
 
@@ -113,8 +114,10 @@ optional arguments:
   -r, --random-agent    use random useragent
   -ss, --ssl            use ssl
 ````
+
+### vulners-manager.py
 ````commandline
-usage: vulners-manager.py [-h] [-nk] [-sf] [-us] [-ws] [-ar] [-sm] [-nm] [-gb] [-fb] [-wf] [-pr] [-ssl] [-s]
+usage: python3 vulners-manager.py [-h] [-nk] [-sf] [-us] [-ws] [-ar] [-sm] [-nm] [-gb] [-fb] [-wf] [-pr] [-ssl] [-s]
 
 Simple Pentesting and Enumeration Framework
 
