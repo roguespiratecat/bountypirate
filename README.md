@@ -4,9 +4,11 @@
 
 **Note Python3 is required!**
 
+## Instalation
 
+````git clone https://github.com/roguespiratecat/bountypirate.git````
 
-## Installing requirements
+## requirements
 
 
 ``bash
