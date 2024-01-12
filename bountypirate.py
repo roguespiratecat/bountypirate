@@ -39,7 +39,7 @@ if (args.recon is False and args.exploits is False or args.vulners is False) and
     print("[!] Usage : python3  bountyPirate.py -e    -d myDomain.com ")
     print("[!] Usage : python3  bountyPirate.py -r    -d myDomain.com -w path/to/some/wordlist")
     print("[!] Usage : python3  bountyPirate.py -v -d myDomain.com -w path/to/some/wordlist")
-    print("Example:: python3 bountiprate.py -r -v -e -d myVulnerableDomain.com")
+    print("Example:: python3 bountyPirate.py -r -v -e -d myVulnerableDomain.com")
 
 else:
     if args.recon is True:
